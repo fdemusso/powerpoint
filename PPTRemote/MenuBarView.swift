@@ -20,6 +20,15 @@ struct MenuBarView: View {
                     .foregroundColor(.secondary)
             }
             Divider()
+            Button {
+                NSWorkspace.shared.open(URL(string: "https://github.com/fdemusso")!)
+            } label: {
+                Text("by Flavio De Musso")
+                    .font(.caption2)
+                    .foregroundColor(.secondary)
+            }
+            .buttonStyle(.plain)
+            .padding(.bottom, 2)
             Button("Esci") { NSApp.terminate(nil) }
                 .keyboardShortcut("q")
                 .padding(.bottom, 4)
