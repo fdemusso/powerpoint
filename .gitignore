@@ -1,7 +1,19 @@
-__pycache__/
-*.pyc
-.venv/
-venv/
-.env
-*.iml
-.idea/
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.apple_archiver
+*.apple_proxylink
+*.xcuserdatad/
+*.xcscmblueprint
+
+# Note: The 'build/' directory is explicitly NOT ignored 
+# as per user request to keep the .app on GitHub.

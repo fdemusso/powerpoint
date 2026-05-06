@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1100000000000000000001 /* PPTRemoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2200000000000000000001 /* PPTRemoteApp.swift */; };
+		AA1100000000000000000002 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2200000000000000000002 /* MenuBarView.swift */; };
+		AA1100000000000000000003 /* HTTPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2200000000000000000003 /* HTTPServer.swift */; };
+		AA1100000000000000000004 /* KeySender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2200000000000000000004 /* KeySender.swift */; };
+		AA1100000000000000000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2200000000000000000005 /* Assets.xcassets */; };
+		AA1100000000000000000006 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = AA2200000000000000000006 /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA2200000000000000000000 /* PPTRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPTRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2200000000000000000001 /* PPTRemoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPTRemoteApp.swift; sourceTree = "<group>"; };
+		AA2200000000000000000002 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		AA2200000000000000000003 /* HTTPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServer.swift; sourceTree = "<group>"; };
+		AA2200000000000000000004 /* KeySender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySender.swift; sourceTree = "<group>"; };
+		AA2200000000000000000005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA2200000000000000000006 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		AA2200000000000000000007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA3300000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA4400000000000000000001 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				AA4400000000000000000002 /* PPTRemote */,
+				AA4400000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA4400000000000000000002 /* PPTRemote */ = {
+			isa = PBXGroup;
+			children = (
+				AA2200000000000000000001 /* PPTRemoteApp.swift */,
+				AA2200000000000000000002 /* MenuBarView.swift */,
+				AA2200000000000000000003 /* HTTPServer.swift */,
+				AA2200000000000000000004 /* KeySender.swift */,
+				AA2200000000000000000005 /* Assets.xcassets */,
+				AA2200000000000000000006 /* index.html */,
+				AA2200000000000000000007 /* Info.plist */,
+			);
+			path = PPTRemote;
+			sourceTree = "<group>";
+		};
+		AA4400000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2200000000000000000000 /* PPTRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5500000000000000000001 /* PPTRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8800000000000000000001 /* Build configuration list for PBXNativeTarget "PPTRemote" */;
+			buildPhases = (
+				AA3300000000000000000002 /* Sources */,
+				AA3300000000000000000001 /* Frameworks */,
+				AA3300000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPTRemote;
+			productName = PPTRemote;
+			productReference = AA2200000000000000000000 /* PPTRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6600000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = AA8800000000000000000002 /* Build configuration list for PBXProject "PPTRemote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA4400000000000000000001;
+			productRefGroup = AA4400000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5500000000000000000001 /* PPTRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA3300000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1100000000000000000005 /* Assets.xcassets in Resources */,
+				AA1100000000000000000006 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA3300000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1100000000000000000001 /* PPTRemoteApp.swift in Sources */,
+				AA1100000000000000000002 /* MenuBarView.swift in Sources */,
+				AA1100000000000000000003 /* HTTPServer.swift in Sources */,
+				AA1100000000000000000004 /* KeySender.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA7700000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA7700000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AA7700000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PPTRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flaviodemusso.PPTRemote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA7700000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PPTRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flaviodemusso.PPTRemote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8800000000000000000001 /* Build configuration list for PBXNativeTarget "PPTRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7700000000000000000003 /* Debug */,
+				AA7700000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8800000000000000000002 /* Build configuration list for PBXProject "PPTRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7700000000000000000001 /* Debug */,
+				AA7700000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = AA6600000000000000000001 /* Project object */;
+}

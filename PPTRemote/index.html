@@ -2,10 +2,15 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover" />
   <title>PPT Remote</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    * { 
+      box-sizing: border-box; 
+      margin: 0; 
+      padding: 0; 
+      -webkit-tap-highlight-color: transparent;
+    }
 
     body {
       background: #111;
@@ -17,7 +22,9 @@
       align-items: center;
       justify-content: center;
       gap: 24px;
-      touch-action: manipulation;
+      touch-action: none;
+      overflow: hidden;
+      overscroll-behavior: none;
     }
 
     h1 {
@@ -26,6 +33,7 @@
       letter-spacing: 0.05em;
       opacity: 0.5;
       text-transform: uppercase;
+      user-select: none;
     }
 
     .buttons {
@@ -43,14 +51,17 @@
       border-radius: 24px;
       font-size: 3rem;
       cursor: pointer;
-      transition: transform 0.08s, opacity 0.08s;
-      -webkit-tap-highlight-color: transparent;
+      transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
       user-select: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     button:active {
-      transform: scale(0.93);
-      opacity: 0.7;
+      transform: scale(0.92);
+      opacity: 0.8;
+      filter: brightness(1.2);
     }
 
     #btn-prev {
@@ -67,6 +78,8 @@
       font-size: 0.78rem;
       opacity: 0.35;
       letter-spacing: 0.03em;
+      user-select: none;
+      height: 1.2rem;
     }
   </style>
 </head>
@@ -102,6 +115,15 @@
       if (e.key === "ArrowRight") send("/next");
       if (e.key === "ArrowLeft")  send("/prev");
     });
+
+    // Prevent zoom and scroll completely
+    document.addEventListener('touchstart', (e) => {
+      if (e.touches.length > 1) e.preventDefault();
+    }, { passive: false });
+
+    document.addEventListener('touchmove', (e) => {
+      e.preventDefault();
+    }, { passive: false });
   </script>
 </body>
 </html>
