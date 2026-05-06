@@ -17,3 +17,6 @@ xcuserdata/
 
 # Note: The 'build/' directory is explicitly NOT ignored 
 # as per user request to keep the .app on GitHub.
+
+# Claude
+.claude/
